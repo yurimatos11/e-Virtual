@@ -13,21 +13,26 @@ function home() {
           <Header>
             <div className="oi"> 
               <h1>e-Virtual</h1>  
-              <a href="sobre"><i class="fas fa-shopping-cart"></i></a>
+              <a href="cart"><i class="fas fa-shopping-cart"></i></a>
             </div> 
           </Header>
           <Content>
             <div className="card">
-              <img src={Tenis1} className="tenis1" alt="tenis1"/>
-              <p className="text">Tenis Nike</p>
-              <button className="but">Add</button>
-              <img src={Tenis2} className="tenis2" alt="tenis2"/>
-              <p className="text">Tenis Nike</p>
-              <button className="but">Add</button>
-              <img src={Tenis3} className="tenis3" alt="tenis3"/>
-              <p className="text">Tenis Nike</p>
-              <button className="but">Add</button>
-
+              <div className="a">
+                <img src={Tenis1} className="tenis1" alt="tenis1"/>
+                <p className="text">Tenis Nike</p>
+                <button className="but">Add</button>
+              </div>
+              <div className="b">
+                <img src={Tenis2} className="tenis2" alt="tenis2"/>
+                <p className="text">Tenis Nike</p>
+                <button className="but">Add</button>
+              </div>
+              <div className="c">
+                <img src={Tenis3} className="tenis3" alt="tenis3"/>
+                <p className="text">Tenis Nike</p>
+                <button className="but">Add</button>
+              </div>
             
             </div>
           </Content>
