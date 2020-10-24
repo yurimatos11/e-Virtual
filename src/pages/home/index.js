@@ -1,13 +1,19 @@
 import React from 'react';
 
-import { Container } from './styles';
+import { Container, Header } from './styles';
 
 function home() {
   return (
       <>
         <Container>
-            <h1>e-Virtual</h1>
+          <Header>
+            <div className="oi"> 
+              <h1>e-Virtual</h1>  
+              <button>oi</button>      
+            </div> 
+          </Header>
         </Container>
+
       </>
   );
 }
